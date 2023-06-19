@@ -157,7 +157,7 @@ main {
   
 }
 .formss{
-  height: 80%;
+  height: auto;
   width: 100%;
   display: flex;
   align-items: center;
