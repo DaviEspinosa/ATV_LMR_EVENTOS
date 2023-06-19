@@ -33,6 +33,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 a:hover {
@@ -50,9 +51,10 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  font-family: 'Inconsolata', monospace;
   background: #23232e;
   height: 8vh;
+  
 }
 
 main {
@@ -356,7 +358,7 @@ nav-auto div:not(:last-child) {
   width: 100%;
   height: 12%;
 }
-.card1 {
+.link-eventos {
   width: 250px;
   display: flex;
   flex-direction: column;
@@ -370,11 +372,18 @@ nav-auto div:not(:last-child) {
   box-shadow: 0px 0px 20px rgb(248, 248, 248);
   transition: 0.4s;
   margin-bottom: 40px;
+  
 }
+.card1{
+  width: 100%;
+  height: 100%;
+} 
 
-.card1:hover{
+
+.link-eventos:hover{
   box-shadow: 0px 10px 20px rgb(177, 175, 175);
   transition: 0.4s;
+  opacity: 100;
 }
 
 .card-img {
@@ -466,7 +475,7 @@ li {
   cursor: pointer;
   font-size: 20px;
   font-weight: bold;
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  
 }
 .sociais-footer {
   width: 100%;
